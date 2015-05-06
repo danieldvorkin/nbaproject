@@ -32,6 +32,9 @@ gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 4.3'
 
+gem 'pg'
+gem "activerecord-postgresql-adapter"
+
 # to use paginate
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
@@ -52,8 +55,7 @@ group :development do
   gem 'terminal-notifier-guard'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'pg'
-  gem "activerecord-postgresql-adapter"
+  
 end
 
 
@@ -65,5 +67,4 @@ group :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'simplecov', require: false
-  gem 'sqlite3'
 end
