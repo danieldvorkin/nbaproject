@@ -62,3 +62,13 @@ N+1 Query method call stack
   /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216698811740'
   /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216700691740'
   /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216675830200'
+2015-05-06 10:27:42[WARN] user: dvorkin212
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/dvorkin212/Documents/BitmakerLabs/projects/nbaproject/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___651141499293211680_70266119584860'
+  /Users/dvorkin212/Documents/BitmakerLabs/projects/nbaproject/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__4247211314105183553_70266120258200'
+  /Users/dvorkin212/Documents/BitmakerLabs/projects/nbaproject/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2254850401805273617_70266097517580'
+  /Users/dvorkin212/Documents/BitmakerLabs/projects/nbaproject/app/controllers/tweets_controller.rb:9:in `index'
