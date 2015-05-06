@@ -1,0 +1,64 @@
+2015-05-05 22:02:18[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216698811740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216700691740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216675830200'
+2015-05-05 22:02:28[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216698811740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216700691740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216675830200'
+2015-05-05 22:13:28[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216698811740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216700691740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216675830200'
+2015-05-05 22:15:00[WARN] user: sump
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216688883760'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216696841160'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216690484480'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-05-05 22:42:45[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216688883760'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216696841160'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216690484480'
+2015-05-05 22:42:58[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216688883760'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216696841160'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216690484480'
+2015-05-05 22:43:16[WARN] user: sump
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3342719706580199211_70216698811740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3003316466778522536_70216700691740'
+  /Users/sump/Desktop/bitmakerlabs/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___2193323624588615820_70216675830200'
